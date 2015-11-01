@@ -48,6 +48,7 @@ app.use((req, res) => {
                         <script type="application/javascript">
                             window.__INITIAL_STATE__ = ${JSON.stringify(initialState)};
                         </script>
+                        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
                     </head>
                     <body>
                         <div id="react-view">${componentHTML}</div>

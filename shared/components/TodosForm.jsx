@@ -11,7 +11,9 @@ export default class TodosForm extends React.Component {
         return (
             <div id="todo-form">
                 <input type="text" placeholder="Type Your Todo Here" ref="todo-input" />
-                <input type="submit" value="Submit" onClick={this.handleSubmit} />
+                <button type="submit" className="btn-primary" onClick={this.handleSubmit}>
+                    Submit
+                </button>
             </div>
         );
     }
